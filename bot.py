@@ -43,7 +43,7 @@ def callback(call):
         bot.send_message(call.message.chat.id, 'Upper_intermediate audio', reply_markup=one_button('https://t.me/+LLkwBZlEqMxkMDUy'))
         bot.send_message(call.message.chat.id, 'Upper_intermediate video', reply_markup=one_button('https://t.me/+0NSqgFTFIV5jYjFi'))
 
-    if call.data == 'Advanced':
+    if call.data == 'advanced':
 
         bot.send_message(call.message.chat.id, 'Advanced audio', reply_markup=one_button('https://t.me/+LLkwBZlEqMxkMDUy'))
         bot.send_message(call.message.chat.id, 'Advanced video', reply_markup=one_button('https://t.me/+KWnhBJhTFTAwNWUy'))
