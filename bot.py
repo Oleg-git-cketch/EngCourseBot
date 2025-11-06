@@ -40,8 +40,8 @@ def callback(call):
 
     if call.data == 'upper_intermediate':
 
-        bot.send_message(call.message.chat.id, 'Upper_intermediate audio', reply_markup=one_button('https://t.me/+LLkwBZlEqMxkMDUy'))
-        bot.send_message(call.message.chat.id, 'Upper_intermediate video', reply_markup=one_button('https://t.me/+0NSqgFTFIV5jYjFi'))
+        bot.send_message(call.message.chat.id, 'Upper_intermediate audio', reply_markup=one_button('https://t.me/+0NSqgFTFIV5jYjFi'))
+        bot.send_message(call.message.chat.id, 'Upper_intermediate video', reply_markup=one_button('https://t.me/+boEG_iIbeRxkMWEy'))
 
     if call.data == 'advanced':
 
